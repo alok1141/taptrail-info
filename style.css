@@ -1,0 +1,118 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background: #f9f9f9;
+    color: #111;
+}
+header {
+    background: white;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+.menu li {
+    display: inline;
+}
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+.hero {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+.hero button {
+    padding: 0.75rem 1.5rem;
+    background: #00A699;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.features, .blogs {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: auto;
+}
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+.features li {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+    padding: 1rem;
+}
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+    background: #f0f0f0;
+}
+body.dark {
+    background-color: #121212;
+    color: #ffffff;
+}
+body.dark header,
+body.dark .features li,
+body.dark .blogs {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+body.dark footer {
+    background-color: #1e1e1e;
+}
+#theme-toggle {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+.badges {
+    margin-top: 1rem;
+}
+.store-badge {
+    height: 50px;
+    margin: 0.5rem;
+}
+.blog-post {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+body.dark .blog-post {
+    background: #2c2c2c;
+}
